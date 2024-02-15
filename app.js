@@ -1,4 +1,5 @@
 document.getElementById('btn2').style.display ='none';
+fondo.src= "./img/img_before_event.png";
 function funcionTotal() {
 
 //LA SGTE FUNCIÓN CAPTURA EL TEXTO DEL INPUT Y LO PASA A INTEGER
