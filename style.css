@@ -1,0 +1,89 @@
+.contenedor{
+    position: fixed;
+ 
+    width: 1080px;
+    height: 748px;
+}
+#fondo{
+    position: fixed;
+ 
+    width: 1080px;
+    height: 748px;
+}
+
+
+#numero-adivinanza{
+
+    position: absolute;
+    width: 30px;
+    border: 0;
+    font-weight: bold;
+    top: 390px;
+    left: 365px;    
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        yellow,
+        orange,
+        red,
+    );
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    position: absolute;
+    left: 490px;
+    bottom:100px;
+}
+
+button span{
+    background-color: darkorange;
+    padding: 16px 24px;
+    border-radius:  50px;
+    transition: 0.3s;
+
+}
+
+button :hover span{
+    background:none;
+}
+
+button :active{
+    transform: scale(0.9);
+    background-color: rgb(218, 106, 42);
+}
+
+button.botonReintentar{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        yellow,
+        orange,
+        red,
+    );
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+
+}
+
+p.rptaChili{
+position: absolute;
+color: red;
+font-size: 50px ;
+top: 340px;
+left: 555px;
+}
+
